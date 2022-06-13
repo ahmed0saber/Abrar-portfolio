@@ -117,9 +117,12 @@ view.forEach((ele) => {
 });
 
 // hide overlay
-overlay.addEventListener("click", () => {
-  overlay.classList.add("hide-overlay");
-});
+// These lines have something wrong, there is nothing with that class "overlay-img"
+// overlay.addEventListener("click", () => {
+//   overlay.classList.add("hide-overlay");
+// });
+
+
 // gallery
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
